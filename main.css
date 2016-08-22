@@ -1,0 +1,62 @@
+#content p {
+	text-align: center;
+}
+
+.right-profile{
+    width:73%;
+	display: inline;
+	text-align: center;
+
+}
+
+.right-profile h3{
+    text-align: center;
+    padding-bottom:0.75em;
+}
+
+.profile{
+    height:40%;
+    width: 30%;
+	display: inline-block;
+    text-align:center;
+}
+
+#btnStartTest{
+	border: 0.2em solid #ccc;
+	padding: 1em;
+	font-family: 'Merriweather', serif;
+	font-size: 1.5em;
+}
+
+#btnStartTest:active{
+	position:relative;
+	top:1px;
+}
+
+#btnStartTest:hover{
+	background-color: #CCC;
+}
+
+#ContainerBtnStartTest{
+	margin: 3em 0;
+	
+	text-align: centre;
+}
+
+footer{
+	position:fixed;
+    bottom:0;
+}
+
+@media screen and (max-width: 850px) {
+	.right-main{
+		width:70%;
+		/*set height in the individual css for this page.*/
+		overflow:auto;
+		padding: 2em 2em 4em;
+	}
+
+	.right-profile{
+		font-size:0.7em;
+	}
+}
